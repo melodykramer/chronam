@@ -32,7 +32,7 @@ Download Solr from a mirror site
     sudo chmod +x /etc/init.d/jetty
 
     sudo cp /opt/chronam/conf/schema.xml /opt/solr/solr/collection1/conf/schema.xml
-    sudo cp /opt/chronam/conf/solrconfig-4.3.0.xml /opt/solr/solr/collection1/conf/solrconfig.xml
+    sudo cp /opt/chronam/conf/solrconfig.xml /opt/solr/solr/collection1/conf/solrconfig.xml
 
     sudo cp /opt/chronam/conf/jetty-ubuntu /etc/default/jetty
     sudo service jetty start
